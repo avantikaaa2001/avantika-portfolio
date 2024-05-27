@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+        text-decoration: none
+        ;
+    }
+    body{
+        background-image:url(pic5.jpg) ;
+       background-size:100% 100%;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    li{
+        list-style-type: none;
+        display: inline;
+        padding-top: 50%;
+        padding-top: 75px;
+    }
+    
+    li a{
+        color: white;
+        margin-right: 25px;
+        padding-top: 75px;
+        margin-top: 15px;
+    }
+
+    .logo a
+    {
+        text-align: left;
+        font-size: 5rem;
+        padding-bottom: 25px;
+        padding-right: 10px;
+        color: white;
+    }
+    .options{
+        color: aliceblue;
+        text-align: right;
+        margin-top: 10px;
+        padding-right: 15px;
+        padding-top: 95px;
+        
+    }
+    .firstsection{
+        display: flex;
+        justify-content:space-between;
+        background-color: transparent;
+        padding-bottom: 15px;
+        color: white;
+    }
+    .leftfirstsection{
+        padding-left: 10px;
+        padding-top: 50px;
+        margin-top: 25px;
+        display: inline-block;
+        font-size: 3rem;
+        padding-bottom: 25px;
+        color: white;
+    }
+    
+    .photo{
+        padding-right: 50px;
+        margin-top:55px;
+        width:400px;
+        height:400px;
+    }
+   
+
+    .base{
+        font-size: 2rem;
+        color: black;
+    }
+    .one{
+        border: black 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: black;
+
+    }
+    .two{
+        border: black 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: black;
+
+    }
+    .three{
+        border: black 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: black;
+    }
+    .four{
+        border: black 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: black;
+    }
+    .more{
+        justify-content: left;
+        color: black;
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+</style>
+<body>
+   <head>
+    <nav class="navbar">
+        <div class="logo"><a href="#"> Avantika Singh</a></div>
+        <ul>
+            <li><a href="education.html" class="one">Education</a></li>
+            <li><a href="projects.html" class="two">Projects</a></li>
+            <li><a href="internship.html" class="three">Internships</a></li>
+            <li><a href="contact.html" class="four">Contact Me</a></li>
+        </ul>
+    </nav>
+   </head> 
+   
+    <div class="firstsection">
+        <div class="leftfirstsection" > Hello, I am <span id="type" class="purple"></span><br>
+            and i am a Web Developer!<br>
+            <br>
+            <br>
+            <p class="base">"Creative web developer eager to build intuitive<br>
+                 and dynamic websites with a focus on user experience."</p>
+        </div>
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+     var typed = new Typed('#type', {
+      strings: ["Avantika Singh"],
+      typeSpeed: 50,
+      backspeed: 60,
+      loop:true
+     })
+   </script>
+   <p class="more">Location : India<br>
+email-id  : savantika2001@gmail.com<br>
+Phone Number : 9903345107</p>
+</body>
+</html>
